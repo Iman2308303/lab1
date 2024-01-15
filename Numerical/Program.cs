@@ -7,18 +7,24 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
-            int x = 0, y = 0;
-            Console.Write("Enter the first number: ");
-            x = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter the second number: ");
-            y = Convert.ToInt32(Console.ReadLine());
+            char z;
+            do
+            {
+                int x = 0, y = 0;
+                Console.Write("Enter the first number: ");
+                x = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter the second number: ");
+                y = Convert.ToInt32(Console.ReadLine());
 
-            Addition(x , y);
-            Subtraction(x , y);
-            Multiplication(x , y);
-            Division(x, y);
+                Addition(x, y);
+                Subtraction(x, y);
+                Multiplication(x, y);
+                Division(x, y);
 
-
+                Console.WriteLine("\n");
+                Console.WriteLine("Do you want to enter new values? (y/n)");
+                z = Convert.ToChar(Console.ReadLine());
+            } while (z == 'y' || z == 'Y');
         }
         static void Addition(int x, int y)
         {
