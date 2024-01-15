@@ -29,6 +29,8 @@ namespace ConsoleApp7
         {
             Console.WriteLine("Multiplication of both number is {0}", (x * y));
                         Console.WriteLine("Multiplication of both number is {0}", (x * y));
+            Console.WriteLine("Multiplication of both number is {0}", (x * y));
+
 
         }
     }
