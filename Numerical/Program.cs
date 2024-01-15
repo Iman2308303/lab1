@@ -15,6 +15,7 @@ namespace ConsoleApp7
                 x = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Enter the second number: ");
                 y = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\n");
 
                 Addition(x, y);
                 Subtraction(x, y);
