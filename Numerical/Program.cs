@@ -13,25 +13,29 @@ namespace ConsoleApp7
             Console.Write("Enter the second number: ");
             y = Convert.ToInt32(Console.ReadLine());
 
-
+            Addition(x , y);
+            Subtraction(x , y);
+            Multiplication(x , y);
+            Division(x, y);
 
 
         }
-        public void Addition(int x, int y)
+        static void Addition(int x, int y)
         {
             Console.WriteLine("Addition of both numbers is {0}", (x + y));
         }
-        public void Subtraction(int x, int y)
+        static void Subtraction(int x, int y)
         {
             Console.WriteLine("Subtraction of both numbers is {0}", (x - y));
         }
-        public void Multiplication(int x, int y)
+        static void Multiplication(int x, int y)
         {
             Console.WriteLine("Multiplication of both number is {0}", (x * y));
-                        Console.WriteLine("Multiplication of both number is {0}", (x * y));
-            Console.WriteLine("Multiplication of both number is {0}", (x * y));
-            ConsoleConsole.WriteLine("this adam code");
-
+            
+        }
+        static void Division(int x, int y)
+        {
+            Console.WriteLine("Division of both numbers is {0}", (x / y));
         }
     }
 }
