@@ -28,6 +28,8 @@ namespace ConsoleApp7
         public void Multiplication(int x, int y)
         {
             Console.WriteLine("Multiplication of both number is {0}", (x * y));
+                        Console.WriteLine("Multiplication of both number is {0}", (x * y));
+
         }
     }
 }
