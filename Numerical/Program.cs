@@ -1,10 +1,9 @@
 ﻿using System.Numerics;
 using System.Security.Cryptography.X509Certificates;
 
+
 namespace ConsoleApp7
 {
-    namespace ConsoleApp7
-    {
         public class Calculator
         {
             static void Main(string[] args)
@@ -54,5 +53,5 @@ namespace ConsoleApp7
                 }
             }
         }
-    }
+    
 }
